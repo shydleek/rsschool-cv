@@ -1,1 +1,1 @@
-https://shydleek.github.io/rsschool-cv/cv
+https://shydleek.github.io/rsschool-cv/

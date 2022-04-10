@@ -14,15 +14,6 @@
 
 html {
     box-sizing: border-box;
-    background-image: url(../../assets/images/start-screen-background.png);
-    background-image: url(../../assets/images/start-screen-gradient-background.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 *,
@@ -36,6 +27,11 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.background {
+    padding-top: 60px;
+    background: url(../../assets/icons/noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20 center/cover no-repeat;
 }
 
 h1,
@@ -60,12 +56,8 @@ a {
     padding: 0 40px;
 }
 
-.header__top {
-    
-  }
-
 .header__inner {
-    margin: 60px 0;
+    margin-bottom: 60px;
     height: 60px;
     display: flex;
     align-items: center;
@@ -105,10 +97,18 @@ a {
 }
 
 .menu__item {
-    margin-left: 35px;
+    margin-left: 36px;
 }
 
 .menu__item-link {
+    color: #CDCDCD;
+    font-family: "Arial Regular";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.menu__item-link:hover {
     color: #CDCDCD;
     font-family: "Arial Regular";
     font-weight: 400;
@@ -123,4 +123,51 @@ a {
     font-size: 15px;
     line-height: 24px;
     border-bottom: 2px solid #F1CDB3;
+}
+
+.not-only {
+    height: 728px;
+}
+
+.not-only__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.not-only__content{
+    margin-top: 163px;
+    max-width: 460px;
+}
+
+.not-only__content__heading {
+    margin: 0 0 42px;
+    width: 310px;
+    color: #FFFFFF;
+    font-size: 44px;
+    line-height: 57.2px;
+}
+
+.not-only__content__text {
+    margin-bottom: 42px;
+    min-width: 460px;
+    color: #CDCDCD;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.not-only__content__button {
+    padding: 15px 45px;
+    width: 207px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+}
+
+.not-only__content__button-link {
+    color: #292929;
+    font-family: "Georgia Regular";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.055em;
 }

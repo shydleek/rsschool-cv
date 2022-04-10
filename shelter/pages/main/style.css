@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Arial Regular";  
+    src: url("../../assets/fonts/arial/arial-regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+     
+@font-face{
+    font-family: "Georgia Regular";
+    src: url("../../assets/fonts/georgia/georgia-regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+html {
+    box-sizing: border-box;
+    background-image: url(../../assets/images/start-screen-background.png);
+    background-image: url(../../assets/images/start-screen-gradient-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: "Georgia Regular", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header__top {
+    
+  }
+
+.header__inner {
+    margin: 60px 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header__inner__logo{
+    height: 100%;
+}
+
+.logo_title{
+    margin: 0 auto;
+}
+
+.logo_title__link{
+    color: #F1CDB3;
+    font-family: "Georgia Regular";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35.2px;
+    letter-spacing: 0.06em;
+}
+
+.logo_subtitle {
+    margin: 10px 0px 0px 4px;
+    color: #FFFFFF;
+    font-family: "Arial Regular";
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}
+
+.menu__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu__item {
+    margin-left: 35px;
+}
+
+.menu__item-link {
+    color: #CDCDCD;
+    font-family: "Arial Regular";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.active{
+    color: #FAFAFA;
+    font-family: "Arial Regular";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    border-bottom: 2px solid #F1CDB3;
+}

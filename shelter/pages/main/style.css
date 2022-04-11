@@ -65,15 +65,15 @@ a {
     
 }
 
-.header__inner__logo{
+.header__logo{
     height: 100%;
 }
 
-.logo_title{
+.logo__title{
     margin: 0 auto;
 }
 
-.logo_title__link{
+.logo__title-link{
     color: #F1CDB3;
     font-family: "Georgia Regular";
     font-weight: 400;
@@ -82,7 +82,7 @@ a {
     letter-spacing: 0.06em;
 }
 
-.logo_subtitle {
+.logo__subtitle {
     margin: 10px 0px 0px 4px;
     color: #FFFFFF;
     font-family: "Arial Regular";
@@ -127,6 +127,7 @@ a {
 
 .not-only {
     height: 728px;
+    margin-bottom: 80px;
 }
 
 .not-only__inner{
@@ -156,7 +157,6 @@ a {
 }
 
 .not-only__content__button {
-    padding: 15px 45px;
     width: 207px;
     height: 52px;
     background: #F1CDB3;
@@ -164,10 +164,168 @@ a {
 }
 
 .not-only__content__button-link {
+    padding: 15px 45px;
     color: #292929;
     font-family: "Georgia Regular";
     font-weight: 400;
     font-size: 17px;
     line-height: 130%;
     letter-spacing: 0.055em;
+    border-radius: 100px;
+}
+
+.about {
+    background-color: #FFFFFF;
+    min-height: 508px;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__picture{
+    margin-right: 120px;
+}
+
+.about__content {
+    max-width: 430px;
+    max-height: 408px;
+}
+
+.about__content__heading {
+    margin: 0px;
+    width: 370px;
+    color: #545454;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+.about__content__text {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: #4C4C4C;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.our-friends {
+    text-align: center;
+    min-height: 877px;
+    background: #F6F6F6;
+}
+
+.our-friends__heading {
+    max-width: 400px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: inline-block;
+    color: #545454;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+}
+
+.our-friends__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.cards {
+    text-align: center;
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+}
+
+.cards:nth-child(3){
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.card__picture {
+    max-width: 270px;
+    max-height: 270px;
+    margin-bottom: 23px;
+}
+
+.card__name{
+    color: #545454;
+    font-family: "Georgia Regular";
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+
+.card__button {
+    display: inline-block;
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    margin-bottom: 23px;
+}
+
+.card__button-link{
+    padding: 13px 42px;
+    font-family: "Georgia Regular";
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border-radius: 100px;
+}
+
+.our-friends__button {
+    display: inline-block;
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+}
+
+.our-friends__button-link {
+    padding: 15px 44px;
+    font-family: "Georgia Regular";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border-radius: 100px;
+}
+
+.arrow{
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    position: relative;
+}
+
+.arrow-left::before{
+    content:url(../../assets/icons/Arrow-1.png);
+    height: 6px;
+    width: 14px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+.arrow-right::before{
+    content:url(../../assets/icons/Arrow.png);
+    height: 6px;
+    width: 14px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
 }
